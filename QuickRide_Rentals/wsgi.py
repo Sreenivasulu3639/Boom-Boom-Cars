@@ -1,5 +1,5 @@
 """
-WSGI config for BoomBoomCars project.
+WSGI config for QuickRide_Rentals project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'BoomBoomCars.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'QuickRide_Rentals.settings')
 
 application = get_wsgi_application()
